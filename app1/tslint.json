@@ -12,13 +12,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "app1",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "app1",
       "kebab-case"
     ],
     "import-blacklist": [

@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa:app1": "ng build app1 --prod --deploy-url http://localhost:4201/",
-    "serve:single-spa:app1": "ng s --project app1 --disable-host-check --port 4201 --deploy-url http://localhost:4201/ --live-reload false"
+    "build:app1": "ng build app1 --prod --deploy-url http://localhost:4201/",
+    "serve:app1": "ng s --project app1 --port 4201 --live-reload false"
   },
   "private": true,
   "dependencies": {

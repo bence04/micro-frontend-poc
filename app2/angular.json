@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "app2",
       "architect": {
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
@@ -32,7 +32,7 @@
             ],
             "scripts": [],
             "customWebpackConfig": {
-              "path": "extra-webpack.config.js",
+              "path": "./extra-webpack.config.js",
               "libraryName": "app2",
               "libraryTarget": "umd"
             }
